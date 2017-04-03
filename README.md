@@ -9,6 +9,7 @@
 * What is p5js used for?
   * Animations
   * Games
+  * Data Visualization
   * Mockups
   * Much more!
 
