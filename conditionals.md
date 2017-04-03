@@ -71,3 +71,28 @@ An example of using **OR** (`||`) might be:
     
     //only ONE of the two conditions has to be true.
 ```
+
+Another example take from a class assignment:
+
+```javascript
+    var x = 300;
+    var y = 200;
+    var speed = 3;
+    
+    function setup(){
+        createCanvas(600,400);
+        background(0);
+    }
+    function draw(){
+        ellipse(x, y, 50, 50);
+        
+        //this if statement changes the direction the cirlcle moves
+        if(x > 600 || x < 0){
+            speed = -speed;
+        }
+        
+        //this changes the x-coordinate of the ball 3 pixels to the right.
+        //but when the if statement gets triggered, it will be x = x + -speed moving it in the opposite direction
+        x = x + speed;
+    }
+```
