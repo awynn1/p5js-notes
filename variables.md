@@ -70,3 +70,12 @@ We can increase/decrase a variable's value by a specfic number (this is helpful 
     `x++` is advantageous when you only need to increment by 1 since this is the shortest. 
     
     If you need to decrease variables, then just swap the `+` for `-`
+
+## Built in Variables
+
+p5js has some built in variables that are at your disposable:
+
+* `mouseX` and `mouseY`: these will return the x-coordinate and y-coordinate of your mouse.
+* `width` and `height`: these will return the width and height of your **canvas**
+
+**Note:** because these are built into p5js, you cannot declare variables with these names or p5js will be confused and thus your program won't work.

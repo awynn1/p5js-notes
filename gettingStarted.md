@@ -1,6 +1,6 @@
 ## Getting Started
 
-At minimum, you need an **index.html** file and a **sketch.js** file, but for purposes of getting in the habit of building full sites/webapps, you should get into the habit of creating a **style.css** and a **script.js** file.
+At minimum, you need an **index.html** file and a **sketch.js** file, but for purposes of getting in the habit of building full sites/webapps, you should get used to creating a **style.css** and a **script.js** file as well.
 
 In your **index.html** file:
 
@@ -50,11 +50,11 @@ In your **sketch.js** file:
 	}
 
 ```
-**Note:** In the above example for `createCavas(width,height)` you can use any dimenstions for a width and height such as `createCanvas(600,400)` or even `createCanvas(width/2,height/2)` which would take up half of the width of the browser's window and half of the height of the browser's window.
+**Note:** In the above example for `createCavas(width,height)` you can use any dimensions for a width and height such as `createCanvas(600, 400)`, `createCanvas(window.innerWidth, window.innerHeight)`, or even `createCanvas(window.innerWidth/2, window.innerHeight/2)` which would take up half of the width of the browser's window and half of the height of the browser's window.
 
 ## function setup( ) vs. function draw( )
 
-These two functions are automatically executed by p5js. The main difference is that `function setup( )` is called only once, while `function draw( )` is called repeatedly. Therefore, your p5js project will behave differently depending on where you put the `background( )` function.
+These two functions are automatically executed by p5js. The main difference is that `function setup( )` is called only once, while `function draw( )` is called repeatedly. Therefore, your p5js project will behave differently depending on where you put your code, specifically the `background( )` function.
 
 **Note:** `background( )` by default takes color in a red, green, blue (r,g,b) format. If you use the same number across all three values, then only one number is needed. For example: `background(50,50,50)` is the same as `background(50)`
 
