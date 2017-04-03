@@ -5,8 +5,9 @@ Arrays are lists. They are essentially a collection of elements (variables, numb
 The elements in arrays are numbered with an index value, however it is important to remember that the index value of the first element of an array starts with 0.
 
 Bucket List
+
 index | element
--- | --
+----- | -----
 0 | "Jump out of airplane"
 1 | "Swim with Sharks"
 2 | "Kiss Beyonce"
@@ -15,12 +16,14 @@ index | element
 Arrays are denoted with square brackets `[ ]` and in the context of this course, can be created in 2 ways:
 
 1. We can create a list altogether:
+
 ```javascript
 var listofnumbers = [12, 15, 17, 19, 20];
 ```
 **OR**
 
 2. We can assign values to an array (even an empty array), individually:
+
 ```javascript
 listofnumbers[0] = 12;
 listofnumbers[1] = 15;
