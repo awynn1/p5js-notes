@@ -1,6 +1,7 @@
 # Functions
 
 Functions in programming serve two main purposes:
+
 1. **Modularity**: Chunking our code into functional parts
 2. **Reusability**: Being able to resuse code if and when we need it.
 
