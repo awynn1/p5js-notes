@@ -40,7 +40,7 @@ Operator | Description
 `==`     | Equal to 
 `!=`     | Not Equal to 
 `&&`     | **AND** 
-`&#124;&#124;`    | **OR** 
+<code>&#124;&#124;</code>    | **OR** 
 
 ## AND and OR
 
