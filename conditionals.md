@@ -62,7 +62,7 @@ An example of using **AND** (&&) might be:
 An example of using **OR** (`||`) might be:
 
 ```javascript
-    if( salary > 100000 || winLottery == true){
+    if( salary > 1000000 || winLottery == true){
         alert("buy myself a yacht");
     }
     else{
