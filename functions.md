@@ -10,6 +10,7 @@ Functions allow us to chunk parts of our programs so that it becomes easier to r
 **Example**: The two code snippets below have the exact same output which is a circle that moves across the screen horizontally. Tough the second version is a lot longer, it is much more readable. This will be especilaly true as programs get longer and more complex.
 
 **Before implementing functions**
+
 ```javascript
 var x = 300;
 var speed = 8;
@@ -33,6 +34,7 @@ function draw(){
 ```
 
 **After implementing functions**
+
 ```javascript
 var x = 300;
 var speed = 8;
