@@ -12,6 +12,7 @@ Conditionals allows our programs to "think." It's allows our programs to behave 
 ```
 
 **For example:** Below we have an ellipse on top of a black background. *If* the x-coordinate of the mouse (`mouseX`), moves beyond the 300-pixel mark (that's halfway across the canvas), then the background will change to red *else* it will remain black.
+
 ```javascript
     function setup(){
         createCanvas(600,400);
