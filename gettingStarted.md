@@ -79,10 +79,9 @@ Play around with the two example structures in your `sketch.js` file.
 ```javascript
 	function setup(){
 		createCanvas(width,height);
-		background(50,50,50);
 	}
 	function draw(){
-		
+		background(50,50,50);
 	}
 
 ```
