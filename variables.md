@@ -3,6 +3,7 @@
 Think of variables like you would in math. They are placeholders for values that can change or vary. One big difference between variables in programming and in math is that in programming variables can be words while in math variables are single letters.
 
 ## Creating Variables in 3 Steps
+
 1. **Declare**: you have to tell your program when you are creating a variable. If you don't, then your program won't know what to do with the word/letter you used.
 2. **Initialize**: Once you've created your variable, you have to set it to a value. 
 3. **Use**: Variables are kind of useless unless you actually use them somewhere in your program.
@@ -31,6 +32,7 @@ Think of variables like you would in math. They are placeholders for values that
     
     ### Note:
     You can *declare* and *initialize* variables on the same line. Thus, the above example can be written like so:
+    
     ```javascript
     //this is me declaring two variables x and y
     var x = 300;
